@@ -1,2 +1,2 @@
-# diy-vs-framework-mocks
+# DIY VS Framework Mocks
 Comparing mocking manually to using a package or framework
