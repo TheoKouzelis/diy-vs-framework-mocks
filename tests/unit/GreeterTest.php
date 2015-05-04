@@ -46,7 +46,7 @@ class GreeterTest extends PHPUnit_Framework_TestCase
     /**
      * @dataProvider greetingAndHourProvider
      */
-    public function testGreetUserReturnsExpectedGreetingWithLoFiMock($expectedGreeting, $hour)
+    public function testGreetUserReturnsExpectedGreetingWithDiyMock($expectedGreeting, $hour)
     {
         $dateTimeMock = new DateTimeMock();
         $dateTimeMock->formatReturn = $hour;
