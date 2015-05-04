@@ -1,0 +1,19 @@
+{
+    "name": "kouz/diy-vs-framework-mocks",
+    "description": "Comparing mocking manually to using a package or framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Theo Kouzelis",
+            "email": "theo@theo.codes"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kouz\\": "src/"
+        }
+    }
+}
