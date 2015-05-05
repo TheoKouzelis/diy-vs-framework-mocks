@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace Kouz;
 
@@ -19,7 +19,7 @@ class Greeter
 
         if ($this->isMorning($hour)) {
             $greeting = "Good morning";
-        } else if ($this->isAfternoon($hour)) {
+        } elseif ($this->isAfternoon($hour)) {
             $greeting = "Good afternoon";
         } else {
             $greeting = "Good evening";
@@ -42,4 +42,4 @@ class Greeter
     {
         $this->dateTime = $dateTime;
     }
-} 
+}

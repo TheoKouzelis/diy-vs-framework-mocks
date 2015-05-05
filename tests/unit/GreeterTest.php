@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace Kouz\Tests;
 
@@ -40,7 +40,7 @@ class GreeterTest extends PHPUnit_Framework_TestCase
 
     public function setup()
     {
-        $this->greeter = new Greeter();    
+        $this->greeter = new Greeter();
     }
 
     /**
@@ -54,9 +54,9 @@ class GreeterTest extends PHPUnit_Framework_TestCase
 
         $actualGreeting = $this->greeter->greetUser();
 
-        $this->assertEquals($expectedGreeting, $actualGreeting); 
-        $this->assertCount(1, $dateTimeMock->formatHistory); 
-        $this->assertEquals('H', $dateTimeMock->formatHistory[0]); 
+        $this->assertEquals($expectedGreeting, $actualGreeting);
+        $this->assertCount(1, $dateTimeMock->formatHistory);
+        $this->assertEquals('H', $dateTimeMock->formatHistory[0]);
     }
 
     /**
@@ -77,6 +77,6 @@ class GreeterTest extends PHPUnit_Framework_TestCase
 
         $actualGreeting = $this->greeter->greetUser();
 
-        $this->assertEquals($expectedGreeting, $actualGreeting); 
+        $this->assertEquals($expectedGreeting, $actualGreeting);
     }
 }
