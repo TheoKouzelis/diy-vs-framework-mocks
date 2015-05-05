@@ -16,14 +16,15 @@ class Greeter
     public function greetUser()
     {
         $hour = $this->dateTime->format('H');
+        $greeting = "Good evening";
 
         if ($this->isMorning($hour)) {
             $greeting = "Good morning";
-        } elseif ($this->isAfternoon($hour)) {
+        } 
+        
+        if ($this->isAfternoon($hour)) {
             $greeting = "Good afternoon";
-        } else {
-            $greeting = "Good evening";
-        }
+        } 
 
         return $greeting;
     }
