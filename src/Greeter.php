@@ -20,11 +20,11 @@ class Greeter
 
         if ($this->isMorning($hour)) {
             $greeting = "Good morning";
-        } 
+        }
         
         if ($this->isAfternoon($hour)) {
             $greeting = "Good afternoon";
-        } 
+        }
 
         return $greeting;
     }
